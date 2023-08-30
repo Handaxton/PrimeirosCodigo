@@ -1,7 +1,10 @@
-n = 0;
-x = 0;
-while(n<3){
-  n++;
-  x+=n;
+alert("SuperMercado do Torquato");
+let produto=0, preco=0, precototal=0;
+while(preco!=-1){
+  preco= parseFloat(prompt("Preço R$ "));
+  precototal+=preco;
+  produto++;
 }
- alert(x);
+precototal+=1;
+produto-=1;
+alert("Quantidade " + produto + "R$" + precototal);
